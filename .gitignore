@@ -101,3 +101,4 @@ ENV/
 .mypy_cache/
 
 worker: python bot.py
+worker: python run.py

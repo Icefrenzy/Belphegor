@@ -2,10 +2,10 @@
   "name": "Oicenbot",
   "description": "PSO2 stoof",
   "version": "0.0.1",
-  "main": "bot.py",
+  "main": "launcher.bat",
   "token": "NDgyNjE1ODIyNjQ1MzI5OTIw.DmHfLA.RfYjfZzLefSWYFMHRiiGtUHQCT0",
   "scripts": {
-    "start": "CALL run.py"
+    "start": "launcher.bat"
    },
    "dependencies": {
     "discord.js": "11.1.0",

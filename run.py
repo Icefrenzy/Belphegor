@@ -5,6 +5,7 @@ import importlib
 import asyncio
 import bot
 import sys
+import os
 
 try:
     import uvloop
@@ -18,7 +19,7 @@ else:
 if __name__ == "__main__":
     while True:
         belphybot = bot.Belphegor(owner_id=config.OWNER_ID)
-        belphybot.run(token.TOKEN)
+        belphybot.run(os.getenv('TOKEN'))
         if not belphybot.restart_flag:
             break
         else:

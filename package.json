@@ -1,0 +1,13 @@
+{
+  "name": "Oicenbot",
+  "description": "PSO2 stoof",
+  "version": "0.0.1",
+  "main": "bot.py",
+  "scripts": {
+    "start": "CALL run.py"
+   },
+   "dependencies": {
+    "discord.js": "11.1.0",
+    "request": "2.81.0",
+   }
+}
